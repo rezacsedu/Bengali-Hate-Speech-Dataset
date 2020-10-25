@@ -27,12 +27,15 @@ Following columns describe the significance about different types of hate:
 | ------------- | -------------  | -------------   | -------------    | -------------       | 
 | Hates towards or directed towards a specific person | Hates towards or directed towards a political group or person | Hates towards or directed towards a specific religion | Hates towards or directed towards a specific country, continent, or regions| Hates towards or directed towards a specific gender | 
 
-
-### Author:
+### Authors:
 -------------
-Md. Rezaul Karim:  
-[Research Scientist, Fraunhofer FIT, Germany](https://www.linkedin.com/in/karimanalytics/)
-[PhD Researcher, Information Systems and Databases, RWTH Aachen University, Germany](http://dbis.rwth-aachen.de/cms/staff/rezaul-karim)
+Md. Rezaul Karim - [Research Scientist, Fraunhofer FIT, Germany](https://www.linkedin.com/in/karimanalytics/), [PhD Researcher, Information Systems and Databases, RWTH Aachen University, Germany](http://dbis.rwth-aachen.de/cms/staff/rezaul-karim)
+
+Bharathi Raja Chakravarthi - [Postdoctoral researcher and Adjunct Lecturer at National University of Ireland, Galway](https://www.linkedin.com/in/bharathi-raja-asoka-chakravarthi-7a520393/)
+
+John McCrae - [Insight SFI Research Centre for Data Analytics,Data Science Institute, National University of IrelandGalway, Ireland](https://www.linkedin.com/in/john-mccrae-6653471b/)
+
+Michael Cochez - [Assistant Professor at Vrije Universiteit Amsterdam (VU Amsterdam](https://www.linkedin.com/in/michaelcochez/)
 
 ### Citation request
 If you use the dataset for your research, please consider citing the folowing paper:
