@@ -18,7 +18,7 @@ The following figure shows the most frequently used terms expressing hates; wher
 
 | Personal Hate | Political Hate | Religious Hate | Geopoitical Hate | | Gender abusive hate
 | ------------- | ------------- | ------------- | ------------- | -------------|
-| 399       | 200        | 200           | 200           | 200         | 200 |
+| 399           | 200           | 200           | 200           | 200          |
 
 ## Citation request
 If you use the dataset for your research, please consider citing the folowing paper:
