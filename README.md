@@ -24,7 +24,7 @@ Statistics about the dataset can be found in the following table:
 
 Following columns describe the significance about different types of hate:
 | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
-| --------------| -------------- | --------------- | -----------------| --------------------| 
+| ---------------------------------------| ---------------------------------------| | ---------------------------------------| | ---------------------------------------| ---------------------------------------| 
 | Hates towards or directed towards a specific person | Hates towards or directed towards a political group or person | Hates towards or directed towards a specific religion | Hates towards or directed towards a specific country, continent, or regions| Hates towards or directed towards a specific gender | 
 
 
