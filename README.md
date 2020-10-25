@@ -16,7 +16,7 @@ Finally, non-hate statements were removed from the list, and hates were further 
 ## Dataset statistics and frequent words
 The following figure shows the most frequently used terms expressing hates; whereas, the statistics can be found in table 1.
 
-| Personal Hate | Political Hate | Religious Hate | Geopoitical Hate | | Gender abusive hate
+| Personal Hate | Political Hate | Religious Hate | Geopoitical Hate | Gender abusive hate |
 | ------------- | ------------- | ------------- | ------------- | -------------|
 | 399           | 200           | 200           | 200           | 200          |
 
