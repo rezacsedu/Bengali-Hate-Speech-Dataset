@@ -9,16 +9,29 @@ From the collected raw texts, two linguists and three native Bengali speakers an
 
 We assign the label hate if at least one of these terms exists in the text. We provide the annotators' unbiased-text-only contents to make the decision based on the criteria of the objective. However, we encountered numerous challenges, e.g., there exist different types of hates in the regions, distinguishing hate speech from offensive language was very challenging as they are not the same, although they would have overlapping. Fortunately, certain types of hate were easy to identify and annotate based on CSPlang that are nonstandard word for Bengali, which conveys a positive or negative attitude towards a person, a group of people, or an issue that is the subject of discussion in political discourse and can be easily annotated as a political hates.
 
-<p align="center"><img src="word_cloud_hate.png?" width="400" height="350"></p>
-
 Finally, non-hate statements were removed from the list, and hates were further categorized into political, personal, gender abusive, geopolitical, and religious hates in which 3.5% of annotated texts were classified as hate speech, were rather low (3.5%) resulting in 35,000 statements labeled as hate. The annotations are further validated and corrected by three experts (one South Asian linguist and two native speakers) into one of two categories: hate and non-hate/inoffensive. To reduce possible bias, each label was assigned based on a majority voting on the annotator's independent opinions. To measurement the agreement among multiple annotators (i.e., the inter-annotator agreement), we compute the [Cohen's Kappa statistics](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
 
-## Dataset statistics and frequent words
-The following figure shows the most frequently used terms expressing hates; whereas, the statistics can be found in table 1.
+## Dataset description, statistics, and frequent words
+The following figure shows the most frequently used terms expressing hates: 
+
+<p align="center"><img src="word_cloud_hate.png?" width="400" height="350"></p>
+
+Statistics about the dataset can be found in the following table: 
 
 | Personal Hate | Political Hate | Religious Hate | Geopoitical Hate | Gender abusive hate |
 | ------------- | ------------- | ------------- | ------------- | -------------|
 | 399           | 200           | 200           | 200           | 200          |
+
+Following columns describe the significance about different types of hate:
+|# | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
+|  | --------------| -------------- | --------------- | -----------------| --------------------| -------| 
+|0 | Hates towards or directed towards a specific person  |  Hates towards or directed towards a political group or person | Hates towards or directed towards a specific religion | Hates towards or directed towards a specific country, continent, or regions| Hates towards or directed towards a specific gender | 
+|  | --------------| -------------- | --------------- | -----------------| --------------------| -------| 
+
+
+### Authors:
+-------------
+[Md. Rezaul Karim, Research Scientist, Fraunhofer FIT, Germany and PhD Researcher, Information Ssystems and Databases, RWTH Aachen University, Germany](https://www.linkedin.com/in/karimanalytics/)
 
 ## Citation request
 If you use the dataset for your research, please consider citing the folowing paper:
