@@ -29,7 +29,7 @@ Following columns describe the significance about different types of hate:
 
 ### Authors:
 -------------
-Md. Rezaul Karim - [Research Scientist, Fraunhofer FIT, Germany](https://www.linkedin.com/in/karimanalytics/), [PhD Researcher, Information Systems and Databases, RWTH Aachen University, Germany](http://dbis.rwth-aachen.de/cms/staff/rezaul-karim)
+Md. Rezaul Karim - [Research Scientist, Fraunhofer FIT, Germany](https://www.linkedin.com/in/karimanalytics/)
 
 Bharathi Raja Chakravarthi - [Postdoctoral researcher and Adjunct Lecturer at National University of Ireland, Galway](https://www.linkedin.com/in/bharathi-raja-asoka-chakravarthi-7a520393/)
 
