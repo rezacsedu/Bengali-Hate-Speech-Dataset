@@ -16,9 +16,8 @@ Finally, non-hate statements were removed from the list, and hates were further 
 ## Dataset statistics and frequent words
 The following figure shows the most frequently used terms expressing hates; whereas, the statistics can be found in table 1.
 
-| Language  |  UTF-8 | Vector Size | Corpus Size  | Vocabulary Size | 
-| ---       |---        |---           |---           |---           |
-|[Bengali (BengFastText)](https://drive.google.com/open?id=1Q_45PQpRWQvZL2p8sIngmgg6Tr5YbKmH) \| [Bengali (f)](https://drive.google.com/open?id=1Q_45PQpRWQvZL2p8sIngmgg6Tr5YbKmH)|bn|300|250M |30059| negative sampling |
+| Personal Hate | Political Hate | Religious Hate | Geopoitical Hate | | Gender abusive hate
+| 399       | 200        | 200           | 200           | 200         | 200 
 
 ## Citation request
 If you use the dataset for your research, please consider citing the folowing paper:
