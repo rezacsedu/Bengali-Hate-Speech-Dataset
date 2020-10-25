@@ -7,7 +7,7 @@ First, Bengali articles were collected from numerous sources from Bangladesh and
 ## Hate speech data annotation
 We provide the annotators' unbiased-text-only contents to make the decision based on the criteria of the objective. From the collected raw texts, two linguists and three native Bengali speakers annotated the datasets. To measurement the agreement among multiple annotators (i.e., the inter-annotator agreement), we compute the [Cohen's Kappa statistics](https://en.wikipedia.org/wiki/Cohen%27s_kappa). We used a bootstrapping approach, which starts with an initial search for specific types of texts or articles containing common slurs and terms used about targeting characteristics. We manually identify frequently occurring terms in the texts containing hate speech and references to specific entities. We annotated 10,000 statements, texts, or articles, which directly or indirectly express hate speech. However, we encountered numerous challenges, e.g., there exist different types of hates in the regions, distinguishing hate speech from offensive language was very challenging as they are not the same, although they would have overlapping. 
 
-![Alt text](word_cloud_hate.png?raw=true "Frequency word clouds on potential hates in Bengali") 
+![Alt text](word_cloud_hate.png?raw=true "Frequency word clouds on potential hates in Bengali") {:height="700px" width="400px"}
 <img src="word_cloud_hate.png?" width="600" height="600">
 
 Collected data samples are annotated in a semi-automated way. Inspired by the creative political slang, we attempted to annotation. We prepare normalized frequency vectors of 
