@@ -1,6 +1,6 @@
 ## Bengali Hate Speech Dataset
 -------------
-This is the subset of the "Bengali hate speech dataset", which was prepared as a part of our recently accepted paper titled "Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network", in proc. of [7th IEEE International Conference on Data Science and Advanced Analytics (DSAA,2020)](http://dsaa2020.dsaa.co/), October 2020, Sydney, Australia. This paper also won the [best application paper award at DSAA'2020](https://twitter.com/IEEEDSAA/status/1317599586341462016). The pre-print of the paper can be accessed on [aRxiv](https://arxiv.org/pdf/2004.07807.pdf). Once ready, we'll make publicly accessible the full dataset.
+The attached [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv) is the subset of the "Bengali hate speech dataset", which was prepared as a part of our recently accepted paper titled "Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network", in proc. of [7th IEEE International Conference on Data Science and Advanced Analytics (DSAA,2020)](http://dsaa2020.dsaa.co/), October 2020, Sydney, Australia. This paper also won the [best application paper award at DSAA'2020](https://twitter.com/IEEEDSAA/status/1317599586341462016). The pre-print of the paper can be accessed on [aRxiv](https://arxiv.org/pdf/2004.07807.pdf). 
 
 ## Collection of raw datset
 -------------
@@ -26,10 +26,13 @@ Statistics about the dataset can be found in the following table:
 | ------------- | ------------- | ------------- | ------------- | -------------|
 | 399           | 200           | 200           | 200           | 200          |
 
-Following columns describe the significance about different types of hate:
+Following columns describe the significance about different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv):
 | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
 | ------------- | -------------  | -------------   | -------------    | -------------       | 
 | Hates towards or directed towards a specific person | Hates towards or directed towards a political group or person | Hates towards or directed towards a specific religion | Hates towards or directed towards a specific country, continent, or regions| Hates towards or directed towards a specific gender | 
+
+### Getting access to full dataset
+We're preparing the full version of the dataset. Once ready, we'll make it publicly accessible. So, please stay tuned! 
 
 ### Authors:
 -------------
