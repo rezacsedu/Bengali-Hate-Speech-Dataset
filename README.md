@@ -32,7 +32,7 @@ Following columns describe different types of hate (i.e., label column in the [C
 | Hatred comment towards or directed towards a specific person | Hatred comment towards or directed towards a political group or person | Hatred comment towards or directed towards a specific religion | Hatred comment towards or directed towards a specific country, continent, or regions| Hatred comment towards or directed towards a specific gender | 
 
 Following table shows a few examples of Bengali hate speech, either directed towards a specific person or entity, or generalized towards a group: 
-<p align="left"><img src="hate.png?" width="800" height="400"></p>
+<p align="left"><img src="hate.png?" width="1000" height="500"></p>
 
 ### Getting access to full dataset
 -------------
