@@ -4,7 +4,7 @@ The attached [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset
 
 ## Collection of raw datset
 -------------
-First, Bengali articles were collected from numerous sources from Bangladesh and India including a Bengali Wikipedia dump, Bengali news articles (Daily Prothom Alo, Daily Jugontor, Daily Nayadiganta, Anandabazar Patrika, Dainik Jugasankha, BBC, and Deutsche Welle), news dumps of TV channels (NTV, ETV Bangla, ZEE News), books, blogs, sports portal, and social media (Twitter, Facebook pages and groups, LinkedIn). We also categorized the raw articles for ease preprocessing for a later stage. Facebook pages (e.g., celebrities, athletes, sports, and politicians) and newspaper sources were scrutinized because composedly, they have about 50 million followers, and many opinions, hate speech and review texts come or spread out from there. All text samples were collected from publicly available sources. Altogether, our raw text corpus consists of 250 million articles. If you want to get the access to full raw dataset, please write an email, with justification, at rezaul.karim.fit@gmail.com.  
+Bengali articles were collected from numerous sources from Bangladesh and India including a Bengali Wikipedia dump, Bengali news articles (Daily Prothom Alo, Daily Jugontor, Daily Nayadiganta, Anandabazar Patrika, Dainik Jugasankha, BBC, and Deutsche Welle), news dumps of TV channels (NTV, ETV Bangla, ZEE News), books, blogs, sports portal, and social media (Twitter, Facebook pages and groups, LinkedIn). Facebook pages (e.g., celebrities, athletes, sports, and politicians) and newspaper sources were scrutinized because composedly, they have about 50 million followers, and many opinions, hate speech and review texts come or spread out from there. Altogether, our raw text corpus consists of 250 million articles. If you want to get the access to full raw dataset, please write an email, with justification, at rezaul.karim.fit@gmail.com.  
 
 ### Hate speech data annotation
 -------------
@@ -14,9 +14,9 @@ We assign the label hate if at least one of these terms exists in the text. We p
 
 Finally, non-hate statements were removed from the list, and hates were further categorized into political, personal, gender abusive, geopolitical, and religious hates in which 3.5% of annotated texts were classified as hate speech, were rather low (3.5%) resulting in 35,000 statements labeled as hate. The annotations are further validated and corrected by three experts (one South Asian linguist and two native speakers) into one of two categories: hate and non-hate/inoffensive. To reduce possible bias, each label was assigned based on a majority voting on the annotator's independent opinions. To measurement the agreement among multiple annotators (i.e., the inter-annotator agreement), we compute the [Cohen's Kappa statistics](https://en.wikipedia.org/wiki/Cohen%27s_kappa).
 
-### Dataset description, statistics, and frequent words
+### Statistics and frequent words
 -------------
-The following figure shows the most frequently used terms expressing hates: 
+Following figure shows the most frequently used terms that express different types of hates in Bengali: 
 
 <p align="center"><img src="word_cloud_hate.png?" width="400" height="350"></p>
 
@@ -26,12 +26,15 @@ Statistics about the dataset can be found in the following table:
 | ------------- | ------------- | ------------- | ------------- | -------------|
 | 399           | 200           | 200           | 200           | 200          |
 
-Following columns describe the significance about different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv)):
+Following columns describe different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv)):
 | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
 | ------------- | -------------  | -------------   | -------------    | -------------       | 
-| Hates towards or directed towards a specific person | Hates towards or directed towards a political group or person | Hates towards or directed towards a specific religion | Hates towards or directed towards a specific country, continent, or regions| Hates towards or directed towards a specific gender | 
+| Hatred comment towards or directed towards a specific person | Hatred comment towards or directed towards a political group or person | Hatred comment towards or directed towards a specific religion | Hatred comment towards or directed towards a specific country, continent, or regions| Hatred comment towards or directed towards a specific gender | 
+Following table shows a few examples of Bengali hate speech, either directed towards a specific person or entity, or generalized towards a group: 
+<p align="center"><img src="hate.png?" width="600" height="350"></p>
 
 ### Getting access to full dataset
+-------------
 We're preparing the full version of the dataset. Once ready, we'll make it publicly accessible. So, please stay tuned! 
 
 ### Authors:
