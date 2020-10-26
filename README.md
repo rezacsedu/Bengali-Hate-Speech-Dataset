@@ -28,11 +28,11 @@ Statistics about the dataset can be found in the following table:
 
 Following columns describe different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv)):
 | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
-| ------------- | -------------  | -------------   | -------------    | -------------       | 
+| --------------------------| --------------------------| -------------| --------------------------| --------------------------| 
 | Hatred comment towards or directed towards a specific person | Hatred comment towards or directed towards a political group or person | Hatred comment towards or directed towards a specific religion | Hatred comment towards or directed towards a specific country, continent, or regions| Hatred comment towards or directed towards a specific gender | 
 
 Following table shows a few examples of Bengali hate speech, either directed towards a specific person or entity, or generalized towards a group: 
-<p align="left"><img src="hate.png?" width="600" height="350"></p>
+<p align="left"><img src="hate.png?" width="800" height="400"></p>
 
 ### Getting access to full dataset
 -------------
