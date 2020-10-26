@@ -26,7 +26,7 @@ Statistics about the dataset can be found in the following table:
 | ------------- | ------------- | ------------- | ------------- | -------------|
 | 399           | 200           | 200           | 200           | 200          |
 
-Following columns describe the significance about different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv):
+Following columns describe the significance about different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv)):
 | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
 | ------------- | -------------  | -------------   | -------------    | -------------       | 
 | Hates towards or directed towards a specific person | Hates towards or directed towards a political group or person | Hates towards or directed towards a specific religion | Hates towards or directed towards a specific country, continent, or regions| Hates towards or directed towards a specific gender | 
@@ -36,13 +36,13 @@ We're preparing the full version of the dataset. Once ready, we'll make it publi
 
 ### Authors:
 -------------
-* Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/)
+* Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
-* Bharathi Raja Chakravarthi - [Postdoctoral Researcher and Adjunct Lecturer, National University of Ireland, Galway](https://www.linkedin.com/in/bharathi-raja-asoka-chakravarthi-7a520393/)
+* Bharathi Raja Chakravarthi - [Postdoctoral Researcher and Adjunct Lecturer, National University of Ireland, Galway](https://www.linkedin.com/in/bharathi-raja-asoka-chakravarthi-7a520393/).
 
-* John McCrae - [Insight Centre for Data Analytics, National University of IrelandGalway, Ireland](https://www.linkedin.com/in/john-mccrae-6653471b/)
+* John McCrae - [Insight Centre for Data Analytics, National University of IrelandGalway, Ireland](https://www.linkedin.com/in/john-mccrae-6653471b/).
 
-* Michael Cochez - [Assistant Professor, Vrije Universiteit Amsterdam, the Netherlands](https://www.linkedin.com/in/michaelcochez/)
+* Michael Cochez - [Assistant Professor, Vrije Universiteit Amsterdam, the Netherlands](https://www.linkedin.com/in/michaelcochez/).
 
 ### Citation request
 -------------
@@ -50,11 +50,12 @@ If you use the dataset for your research, please consider citing the folowing pa
 
     @inproceedings{karim2020BengaliNLP,
         title={Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network},
-        author={Md. Rezaul Karim, Bharathi Raja Chakravarti, John P. McCrae, and Michael Cochez},
-        conference={7th IEEE International Conference on Data Science and Advanced Analytics (IEEE DSAA,2020)},
+        author={Karim, Md. Rezaul and Chakravarti, Bharathi Raja and P. McCrae, John and Cochez, Michael},
+        booktitle={7th IEEE International Conference on Data Science and Advanced Analytics (IEEE DSAA,2020)},
+        publisher={IEEE},
         year={2020}
     }
-
+   
 ### Contributing
 -------------
 For any questions, feel free to open an issue or contact at rezaul.karim@rwth-aachen.de
