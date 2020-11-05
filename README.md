@@ -16,11 +16,11 @@ Following figure shows the most frequently used terms that express different typ
 
 <p align="center"><img src="word_cloud_hate.png?" width="400" height="350"></p>
 
-Statistics about the dataset can be found in the following table: 
+The dataset has 3,418 samples, which has the following distribution: 
 
-| Personal Hate | Political Hate | Religious Hate | Geopoitical Hate | Gender abusive hate |
+| Personal hate | Political hate | Religious hate | Geopoitical hate | Gender abusive hate |
 | ------------- | ------------- | ------------- | ------------- | -------------|
-| 399           | 200           | 200           | 200           | 200          |
+| 629           |     1771      |     502       |     1179      |     316      |
 
 Following columns describe different types of hate (i.e., label column in the [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv)):
 | Personal Hate | Political Hate |  Religious Hate | Geopoitical Hate | Gender abusive hate |
