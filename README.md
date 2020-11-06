@@ -33,6 +33,9 @@ Following are a few examples of Bengali hate speech, either directed or generali
 ### Getting access to full dataset
 We're preparing the full version of the dataset. Once ready, we'll make it publicly accessible. So, please stay tuned! 
 
+### WARNING!
+The data and lexicons contain contenst that are racist, sexist, homophobic, and offensive in many different ways. Datasets are collected and subsequently annotated only for reearch related purposes. Therefore, please use it with your risk. 
+
 ### Authors:
 * Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
