@@ -39,7 +39,7 @@ The data and lexicons contain contenst that are racist, sexist, homophobic, and 
 ### Authors:
 * Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
-* Sumon Kanti Dey - Engineer Scientist at Leadbook](https://www.linkedin.com/in/sumon-kanti-dey-96321b10b/).
+* Sumon Kanti Dey - [Engineer Scientist at Leadbook](https://www.linkedin.com/in/sumon-kanti-dey-96321b10b/).
 
 * Bharathi Raja Chakravarthi - [Postdoctoral Researcher and Adjunct Lecturer, National University of Ireland, Galway](https://www.linkedin.com/in/bharathi-raja-asoka-chakravarthi-7a520393/).
 
