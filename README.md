@@ -36,7 +36,7 @@ We're preparing the full version of the dataset. Once ready, we'll make it publi
 ### WARNING!
 The data and lexicons contain contenst that are racist, sexist, homophobic, and offensive in many different ways. Datasets are collected and subsequently annotated only for reearch related purposes. Therefore, please use it with your risk. 
 
-### Authors:
+### Authors and contributors:
 * Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
 * Sumon Kanti Dey - [Engineer Scientist at Leadbook](https://www.linkedin.com/in/sumon-kanti-dey-96321b10b/).
