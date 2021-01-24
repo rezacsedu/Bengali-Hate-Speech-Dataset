@@ -1,7 +1,15 @@
-## Bengali Hate Speech Dataset
+# Bengali Hate Speech Dataset
+This repository contains the Bengali Hate Speech Datasets, data collectio and annotation process, and supplementary information. There are two versions of this dataset. Version v1.0 and v2.0. Please refer to below sections for more detoails. 
+
+## Warning!
+The data and lexicons contain contenst that are racist, sexist, homophobic, and offensive in many different ways. Datasets are collected and subsequently annotated only for reearch related purposes. Besides, authors don't take any liability if some statements contain very offensive and harted statemnets taht are towards either directed towards a specific person or entity, or generalized towards a group. Therefore, please use it with your risk. 
+
+## Bengali Hate Speech Dataset v1.0
 The attached [CSV file](https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset/blob/main/Bengali_%20Hate_Speech_Dataset_Subset.csv) is the subset of the "Bengali hate speech dataset", which was prepared as a part of our paper titled "Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network", in proc. of [7th IEEE International Conference on Data Science and Advanced Analytics (DSAA,2020)](http://dsaa2020.dsaa.co/), October 6-9 2020, Sydney, Australia. This paper also won the [best application paper award at DSAA'2020](https://twitter.com/IEEEDSAA/status/1317599586341462016), which also can be accessed on [aRxiv](https://arxiv.org/pdf/2004.07807.pdf) as pre-print. 
 
-## Collection of raw datset
+Besides, recently, we extended this dataset with additional 3000 samples and the extended version is used in our paper "DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language", which is currently under review in IEEE Access journal. The preprint version can be found and read on arXiv (https://arxiv.org/ftp/arxiv/papers/2012/2012.14353.pdf).
+
+### Collection of raw datset
 Bengali articles were collected from numerous sources from Bangladesh and India including a Bengali Wikipedia dump, Bengali news articles (Daily Prothom Alo, Daily Jugontor, Daily Nayadiganta, Anandabazar Patrika, Dainik Jugasankha, BBC, and Deutsche Welle), news dumps of TV channels (NTV, ETV Bangla, ZEE News), books, blogs, sports portal, and social media (Twitter, Facebook pages and groups, LinkedIn). Facebook pages (e.g., celebrities, athletes, sports, and politicians) and newspaper sources were scrutinized because composedly, they have about 50 million followers, and many opinions, hate speech and review texts come or spread out from there. Altogether, our raw text corpus consists of 250 million articles. If you want to get the access to full raw dataset, please write an email, with justification, at rezaul.karim.fit@gmail.com.  
 
 ### Hate speech data annotation
@@ -30,12 +38,6 @@ Following columns describe different types of hate (i.e., label column in the [C
 Following are a few examples of Bengali hate speech, either directed or generalized towards a specific person, entity, or a group: 
 <p align="left"><img src="hate.png?" width="850" height="400"></p>
 
-### Getting access to full dataset
-We're preparing the full version of the dataset. Once ready, we'll make it publicly accessible. So, please stay tuned! 
-
-### WARNING!
-The data and lexicons contain contenst that are racist, sexist, homophobic, and offensive in many different ways. Datasets are collected and subsequently annotated only for reearch related purposes. Therefore, please use it with your risk. 
-
 ### Authors and contributors:
 * Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
@@ -56,7 +58,33 @@ If you use the dataset for your research, please consider citing the folowing pa
         booktitle={7th IEEE International Conference on Data Science and Advanced Analytics (IEEE DSAA,2020)},
         publisher={IEEE},
         year={2020}
+    }   
+
+## Bengali Hate Speech Dataset v2.0
+Recently, we extended this dataset with additional 3000 samples and the extended version is used in our paper "DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language", which is currently under review in IEEE Access journal. The preprint version can be found and read on arXiv (https://arxiv.org/ftp/arxiv/papers/2012/2012.14353.pdf).
+
+### Data collections and annotation process
+We extend the Bengali Hate Speech Dataset ((https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset)) with additional 3,000 labelled samples. The Bengali Hate Speech Dataset categorized into political, personal, geopolitical, religious, and gender abusive hates. However, our empirical study and linguist analysis observe that distinguishing personal from gender abusive hate is often not straightforward, as they often semantically overlap. To justify this, our study observes that distinguishing personal hates from gender abusive hates was very challenging. Often statements that express hatred statement towards a person commonly used Benglai words that are directed mostly towards women. 
+Therrefore, we treated the gender abusive hate statements as personal hate, followed by categorizing the samples into political, personal, geopolitical, and religious hate. 
+
+During the data collection, we follow the bootstrap approach for the data collection, where specific types of texts containing common slurs and terms, either directed towards a specific person or entity or generalized towards a group, are only considered. Texts were collected from Facebook, YouTube comments, and newspapers. Three annotators - a linguist, a native Bengali speaker, and an NLP researcher participated in the annotation process. To reduce possible bias, unbiased contents are supplied to the annotators and each label was assigned based on a majority voting on the annotator's independent opinions. To evaluate the quality of the annotations and to ensure the decision based on the criteria of the objective, we measure inter-annotator agreement w.r.t Cohen's Kappa statistic. 
+
+### Data availability
+We made publicly available this dataset (https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset), but only for research purposes. So, if you use the code of this repository in your research, please consider citing the folowing papers:
+
+      @article{karim2020deephateexplainer,
+      title={DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language},
+      author={Karim, Md and Dey, Sumon Kanti and Chakravarthi, Bharathi Raja and others},
+      journal={arXiv preprint arXiv:2012.14353},
+      year={2020}
     }
-   
+
+### Authors and contributors:
+* Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
+
+* Sumon Kanti Dey - [Engineer Scientist at Leadbook](https://www.linkedin.com/in/sumon-kanti-dey-96321b10b/).
+
+* Bharathi Raja Chakravarthi - [Postdoctoral Researcher and Adjunct Lecturer, National University of Ireland, Galway](https://www.linkedin.com/in/bharathi-raja-asoka-chakravarthi-7a520393/).
+
 ### Contributing
 For any questions, feel free to open an issue or contact at rezaul.karim@rwth-aachen.de
