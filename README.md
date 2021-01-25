@@ -70,6 +70,13 @@ During the data collection, we follow the bootstrap approach for the data collec
 ### Data availability
 We made publicly available this dataset (https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset), but only for research purposes. So, if you use the code of this repository in your research, please consider citing the folowing papers:
 
+    @inproceedings{karim2020BengaliNLP,
+        title={Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network},
+        author={Karim, Md. Rezaul and Chakravarti, Bharathi Raja and P. McCrae, John and Cochez, Michael},
+        booktitle={7th IEEE International Conference on Data Science and Advanced Analytics (IEEE DSAA,2020)},
+        publisher={IEEE},
+        year={2020}
+    }   
       @article{karim2020deephateexplainer,
       title={DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language},
       author={Karim, Md and Dey, Sumon Kanti and Chakravarthi, Bharathi Raja and others},
