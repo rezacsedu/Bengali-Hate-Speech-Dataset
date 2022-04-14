@@ -37,7 +37,7 @@ Following are a few examples of Bengali hate speech, either directed or generali
 <p align="left"><img src="hate.png?" width="850" height="400"></p>
 
 ### Authors and contributors:
-* Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
+* Md. Rezaul Karim - [Senior Data Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
 * Sumon Kanti Dey - [Engineer Scientist at Leadbook](https://www.linkedin.com/in/sumon-kanti-dey-96321b10b/).
 
@@ -77,15 +77,17 @@ We made publicly available this dataset (https://github.com/rezacsedu/Bengali-Ha
         publisher={IEEE},
         year={2020}
     }   
-      @article{karim2020deephateexplainer,
-      title={DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language},
-      author={Karim, Md and Dey, Sumon Kanti and Chakravarthi, Bharathi Raja and others},
-      journal={arXiv preprint arXiv:2012.14353},
-      year={2020}
+    @inproceedings{karim2021deephateexplainer,
+      title={Deephateexplainer: Explainable hate speech detection in under-resourced bengali language},
+      author={Karim, Md Rezaul and Dey, Sumon Kanti and Islam, Tanhim and Sarker, Sagor and Menon, Mehadi Hasan and Hossain, Kabir and Hossain, Md Azam and Decker, Stefan},
+      booktitle={2021 IEEE 8th International Conference on Data Science and Advanced Analytics (DSAA)},
+      pages={1--10},
+      year={2021},
+      organization={IEEE}
     }
 
 ### Authors and contributors:
-* Md. Rezaul Karim - [Research Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
+* Md. Rezaul Karim - [Senior Data Scientist, Fraunhofer Institute for Applied Information Technology FIT, Germany](https://www.linkedin.com/in/karimanalytics/).
 
 * Sumon Kanti Dey - [Engineer Scientist at Leadbook](https://www.linkedin.com/in/sumon-kanti-dey-96321b10b/).
 
